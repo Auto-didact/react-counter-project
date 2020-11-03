@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+.navbar-custom {
+  background-color: #24292e;
+}
+.navbar-brand,
+.navbar-nav a {
+  font-family: "sans-serif";
+  font-size: small;
+  font-weight: bold;
+  font-style: normal;
+  flex: content;
+}
+
+.nav-item:hover {
+  text-shadow: 0 0 10px #c0c0c0;
+  text-decoration: none;
+}
+
+input.form-control {
+  background-color: #24292e;
+  margin: 3px;
+  min-width: 265px;
+  border-color: #5d6975;
+  block-size: 30px;
+}
